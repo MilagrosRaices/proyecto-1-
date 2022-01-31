@@ -12,22 +12,27 @@
 /*GRADIENTES*/
 
 .gradienteLineal{
+    background-color: salmon;
     background-image: linear-gradient(245deg, pink, orange, coral);
 }
 
 #gradienteNosotros{
+    background-color: #f9bf8f;
     background-image: linear-gradient(300deg, pink,skyblue);
 }
 
 #gradienteRomance{
-    background-image: linear-gradient(245deg, #cabbe9,#ffcef3,#fdfdfd,#a1eafb);
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
 }
 
 #gradienteCienciaFiccion{
+    background-color: red;
     background-image: linear-gradient(300deg, #f5eded,#d72323,#3e3636,#000000);
 }
 
 #gradienteSuspenso{
+    background-color:slategrey;
     background-image: linear-gradient(300deg, #34222e,#e2434b,#f9bf8f,#fee9d7);
 }
 
@@ -257,8 +262,8 @@ aside{
   }
 
   #Hromance{
-    background-color: #90d5ec;
-    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+    background-color: #ffcef3;
+    background-image: linear-gradient(245deg, #cabbe9,#ffcef3,#fdfdfd,#a1eafb);
   }
     
 .H1romance{
