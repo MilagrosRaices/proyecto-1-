@@ -51,6 +51,25 @@ img:hover{
     width: 400px;
 }
 
+/*animacion*/
+.animate{
+    animation-name:animate;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes animate{
+    from{
+       transform: translateX(-200px);
+       opacity: 0; 
+    }
+    to{
+        transform: translateX(0);
+        opacity: 100;
+
+    }
+}
+
 
 
 body{
