@@ -9,11 +9,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Orelega+One&family=Raleway:wght@300&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Raleway:wght@300&family=Roboto:wght@100&display=swap');
 
+/*GRADIENTES*/
+
+.gradienteLineal{
+    background-image: linear-gradient(245deg, pink, orange, coral);
+}
+
+#gradienteNosotros{
+    background-image: linear-gradient(300deg, pink,skyblue);
+}
+
+#gradienteRomance{
+    background-image: linear-gradient(245deg, #cabbe9,#ffcef3,#fdfdfd,#a1eafb);
+}
+
+#gradienteCienciaFiccion{
+    background-image: linear-gradient(300deg, #f5eded,#d72323,#3e3636,#000000);
+}
+
+#gradienteSuspenso{
+    background-image: linear-gradient(300deg, #34222e,#e2434b,#f9bf8f,#fee9d7);
+}
+
+#gradienteManga{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+}
+
+/*TRANSCIONES*/
+iframe{
+    transition: width 2s;
+}
+iframe:hover{
+    width: 1000px;
+}
+
+img{
+    transition: width 2s;
+}
+img:hover{
+    width: 400px;
+}
+
+
+
 body{
     background-color: #e5e5e5;
     width: 100%;
     height: 100vh;
 }
+
+
 
 section{
     margin: 5px;
@@ -31,28 +77,25 @@ li{
     font-size: 20px;
     padding: 5px 2px 5px 2px;
     color: blanchedalmond;
-    background-color: black;
-    font-family: 'Orelega', sans-serif;   
+    font-family: 'Orelega', sans-serif; 
+}
+
+a{
+    color: blanchedalmond;
+    text-decoration: none;
 }
 nav :hover{
     background-color: coral;
 }
 
 header{
-    width: 100%;
-    height: 50px;
-    margin: 5px, 5px;
-    padding: 50px;
-    border: #e5e5e5;
-    border-style: dotted solid;
-    border-width: 5px;
-    background-image: url(https://www.designyup.com/wp-content/uploads/2020/12/romance-book-covers-featured-image.jpg);
-    font-style: italic;
-    color:black;
-    font-family: 'Raleway!', sans-serif;
-    font-size: 60px;
-    text-align:left;
-    margin-bottom: 15px;
+    padding: 40px;
+    text-align: center;
+    background-color: coral;
+    background-image: linear-gradient(pink,coral);
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    
 }
 
 aside{
@@ -78,14 +121,12 @@ aside{
 
 #servicios{
     color:white;
-    background-color: black;
+    backdrop-filter: blur(5px);
     font-style: bold;
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 15px;
     text-align: start;
-    border:#e5e5e5;
-    border-style: dotted solid;
 }
 
 #contactos{
@@ -109,7 +150,7 @@ aside{
   text-align: center;
   color: white;
   font-family: 'Roboto' , sans-serif;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .pTS{
@@ -117,13 +158,13 @@ aside{
   margin: 5px 2px 5px 2px;
   text-align: center;
   font-family: 'Roboto' sans-serif;
-  font-size: 20px; 
+  font-size: 30px; 
 }
 .p2TS{
   padding: 30px 30px 30px 30px;
   margin: 10px 5px 10px 5px;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -166,9 +207,12 @@ aside{
  
  .pMangas{
    padding: 15px 15px 15px 15px;
-   margin: 10px 10px 10px 10x;
+   margin: 10px 10px 10px 10px;
    text-align: center;
+   font-size: 30px;
+   font-family: 'Orelega', sans-serif;
  }
+
 
  .headerNosotros{
     background-image: url(https://wallpapercave.com/wp/wp4728905.png);
@@ -194,12 +238,9 @@ aside{
   }
 
   #Hromance{
-    background-image: url(https://thumbs.dreamstime.com/b/fashion-aesthetic-wallpaper-phone-bloom-white-flowers-background-spring-summer-romantic-mood-idea-vibes-188328921.jpg);
-    width: 100%;
-    height: 50px;
-    margin: 5px 2px 5px 2px;
-    padding: 50px;
-    }
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+  }
     
 .H1romance{
       font-family: 'Raleway', sans-serif;
@@ -221,23 +262,11 @@ aside{
       margin-top: 10px;
     
     }
-
-#SectionRomance{
-        color: crimson;
-        padding: 30px;
-        font-size: 45px;
-        font-style: italic;
-        font-family: cursive;
-        margin-top:15px;
-        margin-left: 10px;
-        margin-right: 5px;
-}
     
  .Romance-Flex{
         display: flex;
         flex-direction: column, nowrap;
         list-style:none;
-
  }
 
 
